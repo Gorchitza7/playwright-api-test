@@ -1,5 +1,5 @@
 import { request, expect } from '@playwright/test'
-import user from '../Playwright_Advanced_API_2025/.auth/user.json'
+import user from './.auth/user.json'
 import fs from 'fs'
 
 async function globalSetup() {
